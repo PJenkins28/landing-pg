@@ -88,7 +88,7 @@ button {
     align-self: center;
     margin-top: 20px;
     color:#1F2937;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 36px;
 }
 .img-container {
@@ -117,4 +117,28 @@ img {
     height: auto;
     border: 2px solid #3882F6;
     border-radius: 20px;
+}
+
+/* quote section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;  
+    margin-left: 80px;
+    margin-right: 60px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+
 }
