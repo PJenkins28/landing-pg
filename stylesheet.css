@@ -36,7 +36,7 @@ ul {
     margin-top: -40px;
 }
 
-/* second section*/
+/* info section*/
 
 .intro {
     display: flex;
@@ -73,6 +73,48 @@ button {
     width: 100px;
     height: 30px;
     margin-top: 5px;
+}
+
+/* image section */
+
+.img-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F9FAF8;
+}
+
+.subheading {
+    align-self: center;
+    margin-top: 20px;
+    color:#1F2937;
+    font-weight: bold;
+    font-size: 36px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    gap: 2em;
     
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 1em;
+    color:#1F2937;
+    font-size: 15px;
+    font-weight: light;
+    max-width: 150px;
+}
+img {
+    width:100px;
+    height: auto;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+}
