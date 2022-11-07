@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 50px;
+    padding: 70px;
 }
 
 .title {
@@ -36,5 +36,43 @@ ul {
     margin-top: -40px;
 }
 
+/* second section*/
 
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    flex-shrink: 0;
+    
+}
+
+.left {
+    max-width: 300px;
+}
+
+.right {
+    background-color: tan;
+    padding: 100px;
+    max-width: 300px;
+}
+
+.opener {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    
+}
 
